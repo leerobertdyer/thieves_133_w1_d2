@@ -20,6 +20,20 @@ nav > a {
 nav > a:active {
     color: red;
 }
+
+h1 {
+    position:absolute;
+    color: white;
+    font-size: 78px;
+}
+
+#center {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
 header {
     height: 400px;
     background-image: url('/Images/background.png');
